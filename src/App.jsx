@@ -1,15 +1,16 @@
-
-import './App.css'
-import Main from './components/Main/Main.jsx'
+import "./App.css";
+import GetSmarterSection from "./components/GetSmarterSection/GetSmarterSection.jsx";
+import Main from "./components/Main/Main.jsx";
+import Navigation from "./components/Navigation/Navigation.jsx";
 
 function App() {
- 
-
   return (
     <>
-     <Main/>
+      <Navigation />
+      <Main />
+      <GetSmarterSection />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
