@@ -1,5 +1,4 @@
 import css from "./Main.module.css";
-import main from "../../assets/images/image-main.png";
 import chart from "../../assets/images/chart.png";
 
 const Main = () => {
@@ -12,7 +11,6 @@ const Main = () => {
       </p>
       <div className={css.imageContainer}>
         <img src={chart} alt="chart" />
-        <img src={main} alt="main" />
       </div>
     </div>
   );

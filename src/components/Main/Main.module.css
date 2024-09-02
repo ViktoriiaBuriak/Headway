@@ -7,6 +7,9 @@
   background-color: #ffffff;
   margin: 0 auto;
   margin-bottom: 8px;
+  background-image: url('../../assets/images/image-main.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .title {
