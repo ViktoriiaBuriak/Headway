@@ -26,71 +26,73 @@ const DetermineSection = () => {
         Health, and many other categories. Benefit from unlimited access to
         world best thoughts.
       </p>
-      <div className={css.categoryContainer}>
         <ul className={css.categoryList}>
-          <li className={css.categoryItems}>All categories</li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-mountain`} />
-            </svg>
-            Self-Growth
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-smile`} />
-            </svg>
-            Happiness
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-credit-card`} />
-            </svg>
-            Money & Investment
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-speaker`} />
-            </svg>
-            Negotiation
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-apple`} />
-            </svg>
-            Health
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-planet`} />
-            </svg>
-            Spirituality
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-hourglass`} />
-            </svg>
-            Productivity
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-lock`} />
-            </svg>
-            Business & Career
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-heart`} />
-            </svg>
-            Love & Sex
-          </li>
-          <li className={css.categoryItems}>
-            <svg width="24" height="24">
-              <use href={`${icons}#icon-ball`} />
-            </svg>
-            Sports & Fitness
-          </li>
+          <div className={css.categoryRow}>
+            <li className={css.categoryItems}>All categories</li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-mountain`} />
+              </svg>
+              Self-Growth
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-smile`} />
+              </svg>
+              Happiness
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-credit-card`} />
+              </svg>
+              Money & Investment
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-speaker`} />
+              </svg>
+              Negotiation
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-apple`} />
+              </svg>
+              Health
+            </li>
+          </div>
+          <div className={css.categoryRow}>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-planet`} />
+              </svg>
+              Spirituality
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-hourglass`} />
+              </svg>
+              Productivity
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-lock`} />
+              </svg>
+              Business & Career
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-heart`} />
+              </svg>
+              Love & Sex
+            </li>
+            <li className={css.categoryItems}>
+              <svg width="24" height="24">
+                <use href={`${icons}#icon-ball`} />
+              </svg>
+              Sports & Fitness
+            </li>
+          </div>
         </ul>
-      </div>
       <ul className={css.bookList}>
         <div className={`${css.row} ${css.row1}`}>
           <li className={css.bookItems}>
