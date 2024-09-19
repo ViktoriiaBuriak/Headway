@@ -36,11 +36,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  padding-left: 16px;
-  margin-bottom: 8px;
   scrollbar-width: thin;
   scrollbar-color: #aeaaaa #f1f1f1;
   margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-bottom: 8px;
   overflow-x: auto;
 }
@@ -67,34 +67,23 @@
 
 .row {
   display: flex;
+  justify-content: flex-start;
   gap: 12px;
+  transform: translateX(0);
+  transition: transform 1s linear;
 }
 
-/* .row1, .row3 {
-  animation: scroll-left 150s linear infinite;
+.row1 {
+  margin-left: -200px;
 }
 
 .row2 {
-  animation: scroll-right 150s linear infinite;
+  margin-left: 140px;
 }
 
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.row3 {
+  margin-left: -200px;
 }
-
-@keyframes scroll-right {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
 
 .bookItems {
   flex: 0 0 auto;

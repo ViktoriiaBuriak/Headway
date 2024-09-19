@@ -1,5 +1,5 @@
-import css from './Navigation.module.css'
-import icons from '../../assets/icons/icons.svg'
+import css from "./Navigation.module.css";
+import icons from "../../assets/icons/icons.svg";
 
 const Navigation = () => {
   return (
@@ -23,6 +23,6 @@ const Navigation = () => {
       </ul>
     </nav>
   );
-}
+};
 
-export default Navigation
+export default Navigation;

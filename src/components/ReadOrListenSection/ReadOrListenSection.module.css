@@ -7,7 +7,6 @@
   background-color: rgba(255, 51, 51, 0.1);
   margin: 0 auto;
   margin-bottom: 8px;
-  background-image: url("../../assets//images/listen.png");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -47,12 +46,14 @@ background-color: #ffffff;
 
 .buttonItems{
   padding: 12px;
+  cursor: pointer;
 }
 
 .buttonItemsListen {
   border-radius: 40px;
   background-color: #06f;
   padding: 12px;
+  cursor: pointer;
 }
 
 .imageWrap{}
